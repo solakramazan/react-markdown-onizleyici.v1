@@ -1,16 +1,19 @@
-# React + Vite
+React ile Markdown Önizleyici
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Selamlar! Bu proje, React ile pratik yaparken hem kendim için kullanışlı bir araç oluşturmak hem de biraz UI/UX kaslarımı esnetmek için yaptığım bir çalışma. GitHub için README dosyası yazarken veya genel olarak Markdown kullanırken yazdıklarımın anlık olarak nasıl göründüğünü görmek istiyordum, ben de kendi aracımı yapayım dedim.
 
-Currently, two official plugins are available:
+[Uygulamanın tablet mockup'ı içindeki son halinin ekran görüntüsü]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Projeyi Yaparken Neler Düşündüm?
 
-## React Compiler
+Açıkçası, sadece iki tane yan yana kutu yapıp bırakmak istemedim. Portfolyoda biraz daha havalı ve üzerine düşünülmüş dursun diye "Bu basit uygulamayı nasıl daha profesyonel sunabilirim?" diye biraz kafa yordum.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Sonunda aklıma tüm uygulamayı sanki modern bir tabletin içindeymiş gibi gösterme fikri geldi. Bu, hem sunumunu daha profesyonel yapıyor hem de projeye daha bitmiş bir ürün havası katıyor. Koyu tema ve başlık çubukları gibi detaylarla da gerçek bir geliştirici aracı hissiyatı vermeye çalıştım.
 
-## Expanding the ESLint configuration
+Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend: React (Vite ile oluşturdum)
+
+Markdown Dönüştürücü: Yazılan metni HTML'e çevirmek için marked.js adında popüler bir kütüphane kullandım.
+
+Stil: Tüm o tablet görünümünü ve modern arayüzü saf CSS ile kodladım.
