@@ -2,7 +2,6 @@ React ile Markdown Önizleyici
 
 Selamlar! Bu proje, React ile pratik yaparken hem kendim için kullanışlı bir araç oluşturmak hem de biraz UI/UX kaslarımı esnetmek için yaptığım bir çalışma. GitHub için README dosyası yazarken veya genel olarak Markdown kullanırken yazdıklarımın anlık olarak nasıl göründüğünü görmek istiyordum, ben de kendi aracımı yapayım dedim.
 
-[Uygulamanın tablet mockup'ı içindeki son halinin ekran görüntüsü]
 
 Projeyi Yaparken Neler Düşündüm?
 
